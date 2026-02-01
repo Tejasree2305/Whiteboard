@@ -1,10 +1,87 @@
+/* Page background */
 body {
-  font-family: Arial;
-  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #1e1e2f; /* dark background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+  color: #fff;
 }
 
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+/* Toolbar container */
+#toolbar {
+  display: flex;
+  gap: 12px;
+  padding: 12px 20px;
+  background: rgba(40, 42, 54, 0.9); /* translucent card */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Color picker style */
+#color {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* General button style */
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+/* Pen button */
+#pen {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+#pen:hover {
+  filter: brightness(1.1);
+}
+
+/* Eraser button */
+#eraser {
+  background: linear-gradient(135deg, #ff6a6a, #ff3d3d);
+}
+#eraser:hover {
+  filter: brightness(1.1);
+}
+
+/* Undo / Redo buttons */
+#undo, #redo {
+  background: linear-gradient(135deg, #ffd66b, #ffb347);
+}
+#undo:hover, #redo:hover {
+  filter: brightness(1.1);
+}
+
+/* Canvas */
 canvas {
-  border: 1px solid black;
-  margin-top: 10px;
+  border-radius: 12px;
+  background-color: #fff;
   cursor: crosshair;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  max-width: 100%;
 }
