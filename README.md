@@ -1,4 +1,6 @@
 🎨 Real-Time Collaborative Whiteboard
+
+
 An interactive, browser-based whiteboard built with HTML, CSS, JavaScript, the Canvas API, Node.js, and WebSockets. Draw on a digital canvas, choose colors, erase strokes, and undo or redo local changes. A lightweight WebSocket server relays drawing coordinates to connected clients.
 📸 Screenshots
 Whiteboard interface
