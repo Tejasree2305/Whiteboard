@@ -50,8 +50,6 @@ Whiteboard/
 └── README.md
 ```
 
-> Ensure your HTML file is named `index.html` (not `index(1).html`) in the repository.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
