@@ -6,11 +6,13 @@ An interactive, browser-based whiteboard built with **HTML, CSS, JavaScript, the
 
 ### Whiteboard interface
 
-![Whiteboard interface with color picker, pen, eraser, undo, and redo controls](screenshots/whiteboard-interface.png)
+<img width="1920" height="975" alt="whiteboard-interface" src="https://github.com/user-attachments/assets/6958599c-b4c1-486e-8862-aa1379185b94" />
+
 
 ### Drawing on the canvas
 
-![Whiteboard canvas showing handwritten text and a smiley face](screenshots/whiteboard-drawing.png)
+<img width="1920" height="976" alt="whiteboard-drawing" src="https://github.com/user-attachments/assets/e3a835bf-7c63-4a94-b1c3-dfe919402f36" />
+
 
 ## ✨ Features
 
